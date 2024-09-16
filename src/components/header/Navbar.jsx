@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className=" w-full h-24 flex items-center justify-between absolute top-0 left-0">
-      <img className="h-16 m-4 w-fit" src="log.png" alt="Logo" />
+      <img className="h-16 max-w-42 m-4 w-fit" src="log.png" alt="Logo" />
       {/* nav links */}
       <div id="navLinks" className="w-full flex justify-end items-center">
         <ul className="m-4 flex w-full text-xl items-center justify-evenly">
@@ -26,10 +26,10 @@ function Navbar() {
           <li className="cursor-pointer">Resources</li>
           <li className="cursor-pointer">Training</li>
         </ul>
-      </div>
         <button className="text-center w-32 h-12 mr-5 text-xl font-bold text-white bg-sky-600">
           LOGIN
         </button>
+      </div>
     </nav>
   );
 }

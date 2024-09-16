@@ -11,7 +11,7 @@ function App() {
       <RealTimeAlerts />
       <div className="translate-y-32 w-full flex flex-col items-center">
         <div style={{ height: "84vh"}}>
-          <h1 className="font-bold text-6xl p-5 w-fit mx-auto my-5 main-text">EVERY DROP COUNTS</h1>
+          <h1 className="font-bold text-6xl p-5 w-fit mx-auto my-5 main-text text-center">EVERY DROP COUNTS</h1>
         </div>
         <Features />
       </div>

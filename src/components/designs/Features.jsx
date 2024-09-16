@@ -28,7 +28,7 @@ function Features() {
   return (
     <div className="h-dvh p-5 w-full">
       <h1 className="mx-auto text-4xl w-fit my-3">FEATURES</h1>
-      <div className="flex mx-auto items-center justify-center">
+      <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {
             features.map((feature, index) => (
                 <Card key={index} img={feature.img} text={feature.text} para={feature.para} />
@@ -42,7 +42,7 @@ function Features() {
 
 function Card({img, text, para}) {
     return (
-      <div className="p-4 border-2 rounded-lg mx-5 my-10 w-64 text-center shadow-lg">
+      <div className="p-4 border-2 rounded-lg mx-auto my-10 w-64 text-center shadow-lg" style={{height: "23rem"}}>
         <img src={img} alt="Card" />
         <h1 className="font-semibold text-2xl">{text} </h1>
         <p className="font-thin text-justify p-1"> {para}</p>
