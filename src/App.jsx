@@ -1,8 +1,8 @@
 import "./App.css";
 import Features from "./components/designs/Features";
 import Waves from "./components/designs/Waves";
-import Navbar from "./components/Header/Navbar";
-import RealTimeAlerts from "./components/Header/RealTimeAlerts";
+import Navbar from "./components/header/Navbar";
+import RealTimeAlerts from "./components/header/RealTimeAlerts";
 
 function App() {
   return (
